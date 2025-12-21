@@ -1,7 +1,3 @@
-console.log('Welcome to eventory -- auth service')
+import { Config } from './config/index.js'
 
-function welcome(name: string) {
-    console.log('Welcome, ' + name)
-}
-
-welcome('Gaurav')
+console.log(Config.PORT)
